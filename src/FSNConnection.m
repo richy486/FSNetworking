@@ -58,7 +58,7 @@ NSString* stringForRequestMethod(FSNRequestMethod method) {
 
 @property (nonatomic, readwrite) long long downloadProgressBytes;
 
-@property (nonatomic, readwrite) int concurrencyCountAtStart;
+@property (nonatomic, readwrite) NSInteger concurrencyCountAtStart;
 @property (nonatomic, readwrite) NSTimeInterval startTime;
 @property (nonatomic, readwrite) NSTimeInterval challengeInterval;
 @property (nonatomic, readwrite) NSTimeInterval responseInterval;
